@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 
@@ -37,7 +37,7 @@ const App = () => {
       const onLoad = async() => {
       await CheckIfWalletIsConnected(); 
     }; 
-    window.addEventListener('load', onload); 
+    window.addEventListener('load', onLoad); 
     return () => window.removeEventListener('load', onLoad); 
   }, []); 
 
