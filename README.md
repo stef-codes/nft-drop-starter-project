@@ -1,4 +1,4 @@
-# buildspace Solana NFT Drop Project
+# buildspace Solana NFT Drop Projects
 ### Welcome 👋
 To get started with this course, clone this repo and follow these commands:
 
