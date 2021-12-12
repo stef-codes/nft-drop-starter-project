@@ -1,3 +1,5 @@
 Need This for later: 
 wallet public key: FbYQqHNnkAtbL2vMKwFGbQuJSBgUrwjTkv8a2NaSkydf
 create_candy_machine finished. candy machine pubkey: 5A95HyNjAx8Srjr1u5oUgEpSUQwRZ1ZBhq1TusZmX6Qe
+
+ts-node ~/metaplex-foundation/metaplex/js/packages/cli/src/candy-machine-cli.ts update_candy_machine --date "10 Dec 2021 00:12:00 GMT" --env devnet --keypair ~/.config/solana/devnet.json
